@@ -16,7 +16,7 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
-    "@types/node": "^26.4.0",
+    "@types/node": "^26.4.1",
     "@types/sql.js": "^1.4.11",
     "allure-commandline": "^2.43.0",
     "allure-playwright": "^3.11.0",
