@@ -21,9 +21,20 @@ export default defineConfig({
   },
 
   projects: [
-    {
+   {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
+    },
+    {
+      name: 'api',
+      testDir: './tests/api',
+      use: {
+        baseURL: 'https://reqres.in',
+        extraHTTPHeaders: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+        },
+      },
     },
   ],
 });
