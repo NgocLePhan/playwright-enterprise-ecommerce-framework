@@ -2,13 +2,14 @@
   "name": "playwright-enterprise-ecommerce-framework",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
+ "scripts": {
     "test": "cross-env ENV=qa playwright test",
     "test:e2e": "cross-env ENV=qa playwright test tests/e2e",
     "test:api": "cross-env ENV=qa playwright test tests/api",
     "test:smoke": "cross-env ENV=qa playwright test --grep @smoke",
-    "allure:generate": "allure-commandline generate allure-results --clean -o allure-report",
-    "allure:open": "allure-commandline open allure-report"
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,7 @@
     "@types/node": "^26.4.1",
     "@types/sql.js": "^1.4.11",
     "allure-commandline": "^2.43.0",
-    "allure-playwright": "^3.11.0",
+    "allure-playwright": "^3.12.0",
     "cross-env": "^10.1.0",
     "dotenv": "^17.4.2",
     "sql.js": "^1.14.2",
