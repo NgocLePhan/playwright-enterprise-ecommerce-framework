@@ -1,6 +1,6 @@
 # Enterprise E-Commerce Automation Testing Framework
 
-[![Playwright Tests CI](https://github.com/<your-username>/<your-repo-name>/actions/workflows/playwright.yml/badge.svg)](https://github.com/<your-username>/<your-repo-name>/actions/workflows/playwright.yml)
+[![Playwright Tests CI](https://github.com/NgocLePhan/playwright-enterprise-ecommerce-framework/actions/workflows/playwright.yml/badge.svg)](https://github.com/NgocLePhan/playwright-enterprise-ecommerce-framework/actions/workflows/playwright.yml)
 [![Playwright](https://img.shields.io/badge/Playwright-v1.40+-green.svg?logo=playwright)](https://playwright.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![Allure Report](https://img.shields.io/badge/Report-Allure-orange.svg?logo=allure)](https://allurereport.org/)
